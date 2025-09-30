@@ -8,3 +8,9 @@ jobs:
     steps:
       - name: Affichage d’un message
         run: echo "🎉 Hello GitHub Actions depuis le workflow !"
+    
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test liste
+        run: ls
